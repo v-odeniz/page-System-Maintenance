@@ -1,0 +1,41 @@
+* {
+    background-color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width:1050px;
+    margin:0 auto;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Roboto;
+    line-height: 40px;
+    color: #010520;
+    margin: 0 0 10px 0;
+    font-style: normal;
+}
+
+.content {
+    width: 350px;
+}
+
+.explanation-image {
+    width: 500px;
+}
+
+@media (max-width: 628px) {
+    .container {
+        flex-direction: column;
+    }
+    .explanation-image{
+        width: 400px;
+    }
+  }
