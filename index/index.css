@@ -36,6 +36,9 @@
         flex-direction: column;
     }
     .explanation-image{
-        width: 400px;
+        width: 350px;
+    }
+    .content {
+        width: auto;
     }
   }
